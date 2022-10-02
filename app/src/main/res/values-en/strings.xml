@@ -5,4 +5,12 @@
     <string name="ButtonText">I\’m a button</string>
     <string name="login_message">Login</string>
     <string name="password_message">Password</string>
+    <string name="dialog_message">Do you want to finish the activity?</string>
+    <string name="dialog_title">Finish</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
+    <string name="invalid_email">Incorrect or empty email</string>
+    <string name="invalid_password">Empty password</string>
+    <string name="main_response">ListItemsActivity passed: </string>
+    <string name="list_response">Here is my response</string>
 </resources>

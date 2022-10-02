@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="2dp"
-    android:background="@color/teal_200"
+    android:background="@color/white"
     android:columnCount="2"
     android:rowCount="2">
 
     <RadioButton
-        android:id="@+id/radioButton3"
+        android:id="@+id/radioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_row="0"
@@ -20,7 +20,7 @@
         android:text="RadioButton" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/id_checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_row="0"
@@ -30,7 +30,7 @@
         android:text="CheckBox" />
 
     <Switch
-        android:id="@+id/switch2"
+        android:id="@+id/id_switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_row="1"
@@ -40,7 +40,7 @@
         android:text="What does this do?" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/id_imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_row="1"
