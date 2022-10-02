@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
         //listItemsActivity button
         Button listItems = findViewById(R.id.button);
-        Intent intent = new Intent(MainActivity.this, ListItemsActivity.class);
         listItems.setOnClickListener(v -> openListItemsActivity());
     }
     protected void onResume() {
