@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
@@ -43,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         Log.i(ACTIVITY_NAME, "In onDestroy()");
+    }
+    public void onClick(View v) {
+        Log.i(ACTIVITY_NAME, "User clicked Start Chat");
     }
     private void openListItemsActivity(){
         Intent intent = new Intent(MainActivity.this, ListItemsActivity.class);

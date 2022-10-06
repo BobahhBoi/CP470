@@ -12,4 +12,6 @@
     <string name="list_response">Here is my response</string>
     <string name="dialog_message">Do you want to finish the activity?</string>
     <string name="dialog_title">Finish Activity</string>
+    <string name="chat_message">Start Chat</string>
+    <string name="send_message">Send</string>
 </resources>
