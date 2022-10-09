@@ -63,5 +63,10 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this,getString(R.string.main_response) + messagePassed, Toast.LENGTH_LONG).show();
         }
     }
+    public void startChat(View view) {
+        Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+        Intent intent = new Intent(MainActivity.this, ChatWindow.class);
+        startActivityForResult(intent, REQUEST_CODE);
+    }
 
 }
