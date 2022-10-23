@@ -6,12 +6,25 @@
     <string name="password_message">Password</string>
     <string name="invalid_email">Incorrect or empty email</string>
     <string name="invalid_password">Empty password</string>
-    <string name="ok">Checked</string>
-    <string name="cancel">Unchecked</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
     <string name="main_response">ListItemsActivity passed: </string>
     <string name="list_response">Here is my response</string>
     <string name="dialog_message">Do you want to finish the activity?</string>
     <string name="dialog_title">Finish Activity</string>
     <string name="chat_message">Start Chat</string>
     <string name="send_message">Send</string>
+    <string name="choice1Text">Choice One</string>
+    <string name="choice2Text">Choice Two</string>
+    <string name="choice3Text">Choice Three</string>
+    <string name="dialog_title2">Do you want to go back?</string>
+    <string name="new_message">New Message</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="fragment_second">cdcdv</string>
+    <string name="second_fragment_label">v</string>
+    <string name="fragment_first">cdcv</string>
+    <string name="first_fragment_label">v</string>
+    <string name="TestToolbar">Test Toolbar</string>
 </resources>
