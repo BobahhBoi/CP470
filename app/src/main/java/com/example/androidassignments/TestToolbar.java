@@ -1,15 +1,11 @@
 package com.example.androidassignments;
 
-import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
-
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.text.Editable;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -18,19 +14,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import androidx.appcompat.widget.Toolbar;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-
-import com.example.androidassignments.databinding.ActivityTestToolbarBinding;
 
 public class TestToolbar extends AppCompatActivity {
-
-    private AppBarConfiguration appBarConfiguration;
-    private ActivityTestToolbarBinding binding;
 
     //Static variables for snackbar
     static String message;
@@ -64,6 +50,8 @@ public class TestToolbar extends AppCompatActivity {
         FloatingActionButton fab = findViewById(R.id.fab);
 
         switch (id) {
+            //Action one displays a snackbar with either the default message
+            //or a message inputted by the user in action 3
             case (R.id.action_one):
                 Log.d("Toolbar", "Option 1 selected");
 
@@ -75,10 +63,12 @@ public class TestToolbar extends AppCompatActivity {
                         .setAction("Action", null).show();
                 break;
 
+            //Action two asks the user if they would want to stay on the current page
+            //or return to the select menu
             case(R.id.action_two):
                 Log.d("Toolbar", "Option 2 selected");
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                builder.setTitle(R.string.dialog_title2);
+                builder.setTitle(R.string.dialog_message2);
                 builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int i) {
@@ -101,6 +91,8 @@ public class TestToolbar extends AppCompatActivity {
 
                 break;
 
+            //Action three asks the user to enter a message
+            //The message will then be displayed when pressing action one
             case(R.id.action_three):
                 Log.d("Toolbar", "Option 3 selected");
 
@@ -128,11 +120,12 @@ public class TestToolbar extends AppCompatActivity {
                 dialog_m.show();
 
                 break;
-
+            //When the user presses options > about
+            //Will display app version and author (Alex Lau)
             case (R.id.About):
                 Log.d("Toolbar", "About selected");
-                Toast toast = Toast.makeText(TestToolbar.this ,"Version 1.0, by Alex Lau", Toast.LENGTH_LONG);
-                toast.show();
+                Toast aboutToast = Toast.makeText(TestToolbar.this ,"Version 1.0, by Alex Lau", Toast.LENGTH_LONG);
+                aboutToast.show();
                 break;
 
         }

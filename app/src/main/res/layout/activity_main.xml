@@ -42,11 +42,10 @@
         android:onClick="startChat" />
 
     <Button
-        android:id="@+id/testtoolbar"
+        android:id="@+id/test_toolbar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/button"
-
         android:onClick="startTestToolbar"
         android:text="@string/TestToolbar"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -18,9 +18,10 @@
     <string name="choice1Text">Choice One</string>
     <string name="choice2Text">Choice Two</string>
     <string name="choice3Text">Choice Three</string>
-    <string name="dialog_title2">Do you want to go back?</string>
+    <string name="dialog_message2">Do you want to go back?</string>
     <string name="new_message">New Message</string>
     <string name="title_activity_test_toolbar">TestToolbar</string>
+    <string name="TestToolbar">Test Toolbar</string>
 
     <!-- Strings used for fragments for navigation -->
     <string name="fragment_second">cdcdv</string>

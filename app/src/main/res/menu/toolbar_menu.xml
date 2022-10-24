@@ -7,18 +7,21 @@
         android:orderInCategory="101"
         android:title="@string/choice1Text"
         app:showAsAction="always" />
+
     <item android:id="@+id/action_two"
         android:title="@string/choice2Text"
         android:icon="@drawable/action_2"
         android:orderInCategory="102"
         app:showAsAction="always" />
+
     <item android:id="@+id/action_three"
         android:title="@string/choice3Text"
         android:icon="@drawable/action_3"
         android:orderInCategory="103"
         app:showAsAction="always" />
+
     <item android:id="@+id/About"
         android:title="About"
-        android:orderInCategory="101"
+        android:orderInCategory="104"
         app:showAsAction="never" />
 </menu>
