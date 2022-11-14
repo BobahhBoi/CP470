@@ -22,6 +22,7 @@
     <string name="new_message">New Message</string>
     <string name="title_activity_test_toolbar">TestToolbar</string>
     <string name="TestToolbar">Test Toolbar</string>
+    <string name="WeatherForecast">Weather Forecast</string>
 
     <!-- Strings used for fragments for navigation -->
     <string name="fragment_second">cdcdv</string>
